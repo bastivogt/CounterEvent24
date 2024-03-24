@@ -22,9 +22,9 @@ namespace CounterEvent24
         }
 
 
-        public event EventHandler<CounterEventArgs>? CounterStartEvent = null;
-        public event EventHandler<CounterEventArgs>? CounterUpdateEvent = null;
-        public event EventHandler<CounterEventArgs>? CounterFinishEvent = null;
+        public event EventHandler<CounterEventArgs>? CounterStartEvent;
+        public event EventHandler<CounterEventArgs>? CounterUpdateEvent;
+        public event EventHandler<CounterEventArgs>? CounterFinishEvent;
 
 
         public Counter(int start = 0, int end = 10, int step = 1)
